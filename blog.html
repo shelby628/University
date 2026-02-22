@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Parlour</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-y3U6a4QNkUqYB1soOk2nQ0RQKo8WKM7j4a3U3v4sfMdk0ccxE0SkN+zIR0nUq9yMbNz9KkhhdZ7kzF4U5rCUNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header__about">
+        <nav>
+            <!-- <a href="index.html"><img src="img/img/logo.png" alt="logo">< -<!-- ->/a> -->
+            <div class="nav__links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    
+                    <li><a href="index.html#course">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#team">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text__box">
+            <h1>Our Online Programmes and certificates
+            </h1>
+    
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="left__col">
+                <img src="img/img/pexels-timothypictures-2826131.jpg" alt="">     
+ <h2>Our Certificate and Online Programmes for 2025</h2> 
+<p>Maseno University offers a diverse range of certificate and online programmes for 2025 through its innovative eCampus platform, catering to learners seeking flexible and accessible education. The certificate programmes span various disciplines, including Arts and Social Sciences, Business and Economics, Education, Development and Strategic Studies, Computing and Informatics, and Physical and Biological Sciences. Notable offerings include certificates in Journalism & Mass Media, Business Administration, Special Needs Education, Public Administration, Information & Communication Technology, and Environmental Impact Assessment, among others</p>
+<br>
+ <p>The eCampus facilitates online delivery of high-quality courses, allowing students to learn at their own pace and convenience. This mode of study is particularly beneficial for individuals balancing work, family, or residing in remote areas. The programmes are structured to provide reliable access to course materials, eLibrary resources, and administrative support anytime, anywhere .</p>
+ <br>
+ <p>For the 2025 academic year, Maseno University has intakes in January, May, and September, though not all programmes admit students in every intake. Prospective students are required to pay a non-refundable application fee of Ksh. 2,000 and can submit their applications either physically or, for international applicants, via email . The eCampus's flexible modular approach allows learners to pay for the number of modules they wish to take, making education more affordable and tailored to individual needs .</p>
+
+ <section id="team">
+    <div class="comment">
+    <h3>
+        Leave a comment
+    </h3>
+    <form action="/submit-comment" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter email"><br><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Leave your comment"></textarea><br><br>
+        <button type="submit" class="hero__btn red__btn">POST YOUR COMMENT</button>
+ </div>
+</section>
+ 
+
+            </div>
+            <div class="right__col">
+                <h2>Recent Post Categories</h2>
+               <div>
+                <span>Web Design</span>
+                <span>29</span>
+               </div>
+ <div>
+                <span>cutlery</span>
+                <span>19</span>
+               </div>
+                <div>
+                <span>Affiliate Marketing</span>
+                <span>35</span>
+               </div>
+                <div>
+                <span>special need care</span>
+                <span>29</span>
+               </div>
+               <hr>
+               <br><br>
+               <section class="contact__info">
+                   <h3>For further information and enquiries you can contact us through:</h3>  <a href="mailto:universitymsn@gmail.com">Universitymsn@gmail.com</a>
+       <br> <article id="main__article">
+            <h2>
+                Our location
+            </h2>
+            <address>
+               Maseno University
+Private Bag,<br> Maseno – 40105
+Kisumu-Busia Highway,<br>
+1 km from Maseno Town Center,<br>
+Kisumu County,<br>
+Kenya
+                <br><br>
+                phone : <a href="tel+254799999999:">+254799999999</a>
+            </address>
+        </article></section>
+
+            
+    
+
+
+        </div>
+    </section>
+    
+    <!-- ABOUT -->
+    <!-- <section class="blog">
+        <div class="row">
+        <div class="left__col">
+                     
+        
+
+         
+        
+         
+          
+    </div>
+
+
+  
+<div class="contact">
+     <form action="/submit-form" method="POST">
+        
+    <fieldset class="contact__fieldset">
+        
+            <legend class="contact__legend">Your contact</legend>
+         <p> 
+            <label class="contact__label"for="name"> name:</label><br>
+     <input class="contact__input"type="text" id="name" name="name" required><br><br>
+</p>   
+       
+
+    <label class="contact__label"for="email"> Enter Email:</label><br>
+    <input class="contact__input"type="email" id="email" name="email" required><br><br>
+
+    
+
+    <label class="contact__label"for="comment">Additional Comments:</label><br>
+    <textarea id="comment" name="comment" rows="3" cols="30"></textarea><br><br>
+
+    <button type="submit" class="contact__button">Send</button>
+</fieldset>
+
+    
+  </form></div>
+  </div>
+ 
+
+</body>
+</html>
+
+      
+   
+    </section> -->
+</body>
+<!-- - FOOTER --> 
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Maseno University was built around the 1980s with only one branch in Maseno. Over time, branches in Yala and Kisumu were opened to serve different academic disciplines.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Code with Dave Gray</p>
+    </section>
